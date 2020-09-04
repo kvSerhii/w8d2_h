@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#sliderContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 50%;
+    border: 1px solid red;
+}
+
+#image {
+    height: 90%;
+    object-fit: cover;
+}
